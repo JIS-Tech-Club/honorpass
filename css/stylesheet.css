@@ -25,4 +25,20 @@ h6{}
   width:101%;}
 
 #content{z-index: -1;
-  padding-top: 20%;}
+  padding-top: 10%;}
+
+#freshmen{margin-left: -2%;
+  width: 25%;
+  position:fixed;}
+
+#sophomores{margin-left: 23%;
+  width: 25%;
+  position:fixed;}
+
+#juniors{margin-left: 48%;
+  width: 25%;
+  position:fixed;}
+
+#seniors{margin-left: 73%;
+  width: 25%;
+  position:fixed;}
