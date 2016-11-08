@@ -13,10 +13,20 @@ h1{color: lightblue;
 h2{}
 h3{}
 h4{font-size: 100%;}
-h5{}
-h6{}
+h5{padding-right: 1%;}
+h6{color: lightblue;
+  padding-right: 1%;
+  padding-left: 2%;
+  display: inline;}
 
-#title{background-color: darkblue;
+a{color:lightblue;}
+a:visited{color:lightblue;}
+a:hover{color:white;
+  text-shadow: 0 0 5px white;}
+
+#title{background-image:url(../img/bg-body.jpg);
+  background-size:cover;
+  background-position: center;
   color:white;
   margin-top: -2%;
   margin-left: -1%;
@@ -24,21 +34,29 @@ h6{}
   height:20%;
   width:101%;}
 
-#content{z-index: -1;
-  padding-top: 10%;}
+#login{z-index: -1;
+  padding-top: 20%;
+  padding-left: 43%;
+  position: fixed;}
 
-#freshmen{margin-left: -2%;
-  width: 25%;
-  position:fixed;}
+#changelog{
+  padding-top: 9%;
+  position: fixed;
+  width: 100%;
+  height:60%;}
 
-#sophomores{margin-left: 23%;
-  width: 25%;
-  position:fixed;}
+#content{}
 
-#juniors{margin-left: 48%;
-  width: 25%;
-  position:fixed;}
+#bottom{background-image:url(../img/bg-body.jpg);
+  background-size: cover;
+  background-position: center;
+  color:white;
+  margin-top: 41%;
+  margin-left: -1%;
+  position:fixed;
+  height:20%;
+  width:100.5%;
+  text-align: right;
+  display: inherit;}
 
-#seniors{margin-left: 73%;
-  width: 25%;
-  position:fixed;}
+#navi{text-align:left;}

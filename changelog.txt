@@ -1,0 +1,12 @@
+Changelog for JIS Honor Pass Website!
+
+Update 0: Creation
++ Created html files with login + other pages.
++ Credited creators
++ Added animated Favicon (Only animated in firefox)
+
+Update 0.1: Stylez
++ Added Stylesheet
++ Added Changelog
++ Added BackToJIS Link
++ Added Jis Borders
