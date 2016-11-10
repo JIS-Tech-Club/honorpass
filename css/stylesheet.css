@@ -84,7 +84,7 @@ li:last-child {
   border: none;
 }
 
-.active {background-color: darkblue;
+a.active {background-color: darkblue;
   text-shadow: none;}
 
 #title{background-image:url(../img/bg-body.jpg);
