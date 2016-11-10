@@ -1,4 +1,11 @@
-Changelog for JIS Honor Pass Website!
+Changelog for JIS Honor Pass Website! - Created By XAVIER, ANISH, BEN, ABHISHU
+
+Update 0.2: Navbar
++ Added Working Link for list test page
++ Button Changes Colour when Hovering
++ Improved Style to look more sleek
+- Removed Bottom Div (Converted Bottom To UL NavBar
+
 
 Update 0.1: Style
 + Added Stylesheet
