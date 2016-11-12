@@ -52,7 +52,7 @@ ul {list-style-type: none;
   overflow: hidden;
   background-image: url(../img/bg-body.jpg);
   background-position: center;
-  background-size: cover;
+  background-size:contain;
   position: fixed;
   bottom: -1%;
   width: 100%;
