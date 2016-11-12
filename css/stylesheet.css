@@ -49,7 +49,6 @@ a:hover{color:white;
 ul {list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-image: url(../img/bg-body.jpg);
   background-position: center;
   background-size:contain;
@@ -66,7 +65,7 @@ li a {display: block;
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 20px 50px;}
+  padding: 3vh 100px;}
 
 li a:hover:not(.active) {
   background-color: #111;

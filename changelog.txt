@@ -1,5 +1,8 @@
 Changelog for JIS Honor Pass Website! - Created By XAVIER, ANISH, BEN, ABHISHU
 
+Update 0.25: Navbar Size
++ Fixed Height of Buttons to be relative to navbar.
+
 Update 0.2: Navbar
 + Added Working Link for list test page
 + Button Changes Colour when Hovering
