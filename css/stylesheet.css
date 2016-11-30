@@ -117,8 +117,3 @@ a.active {background-color: darkblue;
 
 #content{top: 35%;
   position: fixed;}
-
-.g-signin2{
-  width:100%;
-  background-color: black;
-}

@@ -34,7 +34,23 @@
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
       };
+    function renderButton() {
+    gapi.signin2.render('my-signin2', {
+       'scope': 'profile email',
+       'width': 100%,
+       'height': 50%,
+       'longtitle': true,
+       'theme': 'dark',
+       'onsuccess': onSuccess,
+       'onfailure': onFailure
+     });
+     function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
     </script>
+
 
       <form class="jislogin" action="index.html" method="post">
         <input type="email" name="user" placeholder="JIS Email" size="30%"><br>
