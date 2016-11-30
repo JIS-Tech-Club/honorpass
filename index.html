@@ -13,7 +13,7 @@
       gapi.load('auth2', function(){
         // Retrieve the singleton for the GoogleAuth library and set up the client.
         auth2 = gapi.auth2.init({
-          client_id: 'YOUR_CLIENT_ID.apps.googleusercontent.com',
+          client_id: '95394829121-4si8kco4p750hi8dkge55letu8ld33ft.apps.googleusercontent.com',
           cookiepolicy: 'single_host_origin',
           // Request scopes in addition to 'profile' and 'email'
           //scope: 'additional_scope'
@@ -35,16 +35,18 @@
     </script>
     <style type="text/css">
     #customBtn {
-      width: 40%;
+      width: 25vw;
+      height: 6vh;
       color: white;
-      padding: 5% 1%;
+      padding: 2% 1% 1% 1%;
       display: inline-block;
       background-image:url(img/bg-body.jpg);
-      background-size: cover;
+      background-position: center;
+      background-repeat:repeat-y;
+      background-size: contain;
       border-radius: 10px;
       border: 0;
-      box-shadow: 2px 2px 2px grey;
-      white-space: nowrap;
+      box-shadow: 1px 1px 1px grey;
     }
     #customBtn:hover {
       cursor: pointer;
@@ -54,18 +56,20 @@
       background: #093380;
     }
     span.icon {
-      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
-      display: inline-block;
+      float: left;
       vertical-align: middle;
-      height: 10px;
+      display: inline-block;
+      height: 100%;
+      padding-left: 1vw;
     }
-    span.buttonText {
-      display: inline-block;
+
+    span.icon>img{border-radius: 10px;
       vertical-align: middle;
-      padding-left: 5%;
-      padding-right: 5%;
+      height: 5vmin;}
+
+    span.buttonText {
+      margin-top: 10px;
       font-size: 4vmin;
-      font-weight: bold;
       /* Use the Roboto font that is loaded in the <head> */
       font-family: 'Roboto', sans-serif;
     }
@@ -80,27 +84,16 @@
 
     <div id="login">
       <h3>Log In!</h3>
-
       <!-- In the callback, you would hide the gSignInWrapper element on a
       successful sign in -->
       <div id="gSignInWrapper">
-        <span class="label">Sign in with:</span>
         <div id="customBtn" class="customGPlusSignIn">
-          <span class="icon"></span>
-          <span class="buttonText">Google</span>
+          <span class="icon"><img src="img/g-logo.jpg" alt=""></span>
+          <span class="buttonText">Sign in with Google</span>
         </div>
       </div>
       <div id="name"></div>
       <script>startApp();</script>
-
-    <form class="jislogin" action="index.html" method="post">
-        <input type="email" name="user" placeholder="JIS Email" size="30%"><br>
-        <input type="password" name="pass" placeholder="Password" size="30%"><br>
-        <input type="submit" name="login" value="Login">
-      </form>
-
-      <a href="hpfront.html">List Front Link (Login Not Working)</a>
-      <a href="indextext.html"> testing</a>
 
     </div>
 
