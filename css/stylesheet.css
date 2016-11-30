@@ -31,7 +31,9 @@ input[type=password]{width: 80%;
 p{}
 
 h1{color: lightblue;
-  padding: 1%;}
+  padding: 1%;
+  padding-top: 3%;
+  padding-bottom: 2%;}
 h2{}
 h3{}
 h4{font-size: 120%;
@@ -89,7 +91,7 @@ a.active {background-color: darkblue;
 
 #title{background-image:url(../img/bg-body.jpg);
   background-size:cover;
-
+  vertical-align: middle;
   background-position: center;
   color:white;
   top: 0;
@@ -102,7 +104,8 @@ a.active {background-color: darkblue;
 #login{z-index: -1;
   top: 35%;
   text-align: center;
-  left: 40%;
+  left: 17%;
+  width: 60vw;
   position: fixed;
   color: black;}
 
@@ -117,3 +120,39 @@ a.active {background-color: darkblue;
 
 #content{top: 35%;
   position: fixed;}
+
+  #customBtn {
+    width: 40%;
+    color: white;
+    padding: 5% 1%;
+    display: inline-block;
+    background-image:url(../img/bg-body.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 2px 2px 2px grey;
+    white-space: nowrap;
+  }
+  #customBtn:hover {
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 2px;
+    box-shadow: none;
+    background: #093380;
+  }
+  span.icon {
+    background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 4vmin;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+  }
